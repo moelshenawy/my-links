@@ -66,6 +66,19 @@ const Home = () => {
                 <BsShare />
               </div>
             </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              className="list"
+              href="https://drive.google.com/file/d/1vAKA9aV6QJDHvtTauNEkaEJ31CmmFoQI/view?pli=1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="list-desc">منيو</div>
+
+              <div className="list-icon">
+                <BsShare />
+              </div>
+            </motion.a>
 
             <motion.a
               whileHover={{ scale: 1.1 }}
