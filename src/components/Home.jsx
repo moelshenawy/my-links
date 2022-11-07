@@ -21,10 +21,7 @@ const Home = () => {
         <div className="d-flex p-2 align-items-center justify-content-center flex-column">
           <div className="user-info">
             <div className="logo-container">
-              <img
-                src={require("../assets/imgs/pexels-jer-chung-2059151.jpg")}
-                alt="profile"
-              />
+              <img src={require("../assets/imgs/profile.jpg")} alt="profile" />
             </div>
           </div>
 
@@ -35,7 +32,8 @@ const Home = () => {
           <div className="user-desc">
             <p>
               وجبات افطار - غذاء لجميع العاملين بالشركات والمحلات بمحيط ميدان
-              محطة الرمل والمنشية ادارة الشيف: عصام فؤاد
+              محطة الرمل والمنشية
+              <p>ادارة الشيف: عصام فؤاد</p>
             </p>
           </div>
 
